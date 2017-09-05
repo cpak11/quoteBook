@@ -1,0 +1,10 @@
+.qc{display:inline-block;position:relative;}
+.qc p[ng-repeat]{margin:40px 20px;box-sizing: border-box;padding-left:10px;color:rgb(85,85,85);}
+.qc p[ng-repeat]:hover{border-left:2px solid darkred;margin-left:18px;color:black;}
+p span.text::before{content:'"';}
+p span.text::after{content:'"';}
+p span.text{font-family: 'Roboto Slab', serif;}
+p span.author{font-family: 'Open Sans', sans-serif;display:block;text-align:right;}
+p button[ng-click]{display:block;}
+.qc button{position:absolute;right:0;margin:7px 20px 0 0;}
+.lt{text-decoration:line-through;}
